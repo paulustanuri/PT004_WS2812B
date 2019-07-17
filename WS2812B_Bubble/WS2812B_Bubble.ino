@@ -2,11 +2,11 @@
 #define INT_PIN     2
 #define LED_PIN     8
 #define COLOR_ORDER GRB
-#define CHIPSET     WS2812
+#define CHIPSET     WS2812B
 #define NUM_ROWS  16
 #define NUM_COLS  16
 #define NUM_LEDS  (NUM_ROWS * NUM_COLS)
-#define BRIGHTNESS  90
+#define BRIGHTNESS  50
 #define SPEEDS 5
 #define autoShutdown true
 #define autoShutdownTime 7200000//miliseconds
